@@ -119,7 +119,7 @@ public class LineChartActivityColored extends DemoBase {
         set1.setHighLightColor(Color.WHITE);
         set1.setDrawValues(false);
 
-        ArrayList<ILineDataSet> dataSets = new ArrayList<ILineDataSet>();
+        ArrayList<LineDataSet> dataSets = new ArrayList<LineDataSet>();
         dataSets.add(set1); // add the datasets
 
         // create a data object with the datasets
